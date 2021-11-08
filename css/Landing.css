@@ -6,12 +6,11 @@
     background-color: #DEDEDE; 
     }
   .v38_111 {
-    /* background-color: tomato; */
     width: 428px;
     height: 926px;
     background: rgba(255,255,255,1);
     opacity: 1;
-    position: relative;
+    margin: auto;
     top: 0px;
     left: 0px;
     overflow: hidden;
@@ -20,7 +19,6 @@
   .v10_48 {
     width: 428px;
     height: 926px;
-    /* background: rgba(255,255,255,1); */
     opacity: 1;
     position: relative;
     top: 0px;
@@ -39,7 +37,6 @@
     top: 43px;
     left: -45px;
     overflow: hidden;
-    /* background-color: tomato; */
   }
   .v35_4 {
     width: 278px;
