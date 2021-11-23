@@ -3,16 +3,16 @@
 }
 body {
   font-size: 14px;
+  background-color: black;
 }
 .v38_133 {
   width: 428px;
   height: 926px;
   background: rgba(255,255,255,1);
   opacity: 1;
-  position: absolute;
-  top: 0px;
-  left: 0px;
+  margin: auto;
   overflow: hidden;
+  border-radius: 10px;
 }
 .v38_134 {
   width: 428px;
@@ -20,9 +20,8 @@ body {
   background: rgba(255,255,255,1);
   opacity: 1;
   position: absolute;
-  top: 0px;
-  left: 0px;
   overflow: hidden;
+  border-radius: 10px;
 }
 .v38_135 {
   width: 428px;
@@ -74,7 +73,7 @@ body {
   width: 107px;
   color: rgba(255,255,255,1);
   position: absolute;
-  top: 0px;
+  top: 25px;
   left: 0px;
   font-family: Roboto;
   font-weight: Regular;
@@ -108,7 +107,7 @@ body {
   width: 106px;
   color: rgba(255,255,255,1);
   position: absolute;
-  top: 0px;
+  top: 25px;
   left: 0px;
   font-family: Roboto;
   font-weight: Regular;
@@ -143,7 +142,7 @@ body {
   width: 107px;
   color: rgba(255,255,255,1);
   position: absolute;
-  top: 0px;
+  top: 25px;
   left: 0px;
   font-family: Roboto;
   font-weight: Regular;
@@ -178,7 +177,7 @@ body {
   width: 107px;
   color: rgba(255,255,255,1);
   position: absolute;
-  top: 0px;
+  top: 25px;
   left: 0px;
   font-family: Roboto;
   font-weight: Regular;
@@ -207,6 +206,7 @@ body {
   top: 105px;
   left: 15px;
   overflow: hidden;
+  border-radius: 10px;
 }
 .v38_140 {
   width: 301px;
@@ -452,7 +452,7 @@ body {
   width: 294px;
   color: rgba(255,255,255,1);
   position: absolute;
-  top: 2px;
+  top: 21px;
   left: 0px;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   font-family: Roboto;
@@ -465,7 +465,7 @@ body {
   width: 128px;
   color: rgba(255,255,255,1);
   position: absolute;
-  top: 2px;
+  top: 30px;
   left: 295px;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   font-family: Roboto;
@@ -535,8 +535,8 @@ body {
   width: 206px;
   color: rgba(0,0,0,0.5);
   position: absolute;
-  top: 611px;
-  left: 53px;
+  top: 640px;
+  left: 55px;
   font-family: Roboto;
   font-weight: Regular;
   font-size: 20px;
@@ -547,7 +547,7 @@ body {
   width: 49px;
   color: url("../images/v92_11.png");
   position: absolute;
-  top: 593px;
+  top: 640px;
   left: 327px;
   font-family: Roboto;
   font-weight: Regular;
