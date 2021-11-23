@@ -3,6 +3,7 @@
   }
   body {
     font-size: 14px;
+    
   }
   .v116_69 {
     width: 428px;
@@ -64,7 +65,7 @@
     width: 107px;
     color: rgba(255,255,255,1);
     position: absolute;
-    top: 0px;
+    top: 25px;
     left: 0px;
     font-family: Roboto;
     font-weight: Regular;
@@ -98,7 +99,7 @@
     width: 106px;
     color: rgba(255,255,255,1);
     position: absolute;
-    top: 0px;
+    top: 25px;
     left: 0px;
     font-family: Roboto;
     font-weight: Regular;
@@ -133,7 +134,7 @@
     width: 107px;
     color: rgba(255,255,255,1);
     position: absolute;
-    top: 0px;
+    top: 25px;
     left: 0px;
     font-family: Roboto;
     font-weight: Regular;
@@ -168,7 +169,7 @@
     width: 107px;
     color: rgba(255,255,255,1);
     position: absolute;
-    top: 0px;
+    top: 25px;
     left: 0px;
     font-family: Roboto;
     font-weight: Regular;
@@ -274,7 +275,7 @@
     width: 294px;
     color: rgba(255,255,255,1);
     position: absolute;
-    top: 2px;
+    top: 21px;
     left: 0px;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     font-family: Roboto;
@@ -287,7 +288,7 @@
     width: 128px;
     color: rgba(255,255,255,1);
     position: absolute;
-    top: 2px;
+    top: 30px;
     left: 295px;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     font-family: Roboto;
