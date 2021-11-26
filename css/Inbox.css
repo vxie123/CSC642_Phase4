@@ -1,334 +1,351 @@
 * {
-    box-sizing: border-box;
-  }
-  body {
-    font-size: 14px;
-    background-color: black;
-  }
-
-  
-  .frame {
-    width: 428px;
-    height: 926px;
-    background: rgba(255,254,254,1);
-    opacity: 1;
-    position: absolute;
-    top: 62%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    overflow: hidden;
-    position: absolute;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-  }
-
-  /* Header */
-  .msg-header {
-    position: absolute;
-    width: 429px;
-    height: 91px;
-    left: 0px;
-    top: 0px;
-
-
-  }
-
-  .messaging {
-    position: absolute;
-    width: 428px;
-    height: 756px;
-    left: 0px;
-    top: 91px;
-  }
-
-  .head-divider {
-    position: absolute;
-    width: 95.99px;
-    height: 0px;
-    left: 295.77px;
-    top: 90.99px;
-    
-    border: 1px solid #000000;
-    transform: matrix(0, -1, 1, 0, 0, 0);
-  }
-
-  .name {
-    color: #fff;
-  }
-
-  .v123_30 {
-    position: absolute;
-    width: 297px;
-    height: 91px;
-    left: 0px;
-    top: 0px;
-
-    background: #B1D283;
+  box-sizing: border-box;
+}
+body {
+  font-size: 14px;
+  background-color: black;
 }
 
-  .v123_31 {
-    position: absolute;
-    width: 132px;
-    height: 91px;
-    left: 296px;
-    top: 0px;
 
-    background: #B1D283;
-  }
-  .v123_32 {
-    width: 297px;
-    height: 88.25px;
-    color: rgba(255,255,255,1);
-    position: absolute;
-    top: 2px;
-    left: 1px;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    font-family: Roboto;
-    font-weight: Regular;
-    font-size: 45px;
-    opacity: 1;
-    text-align: center;
-    justify-content: center;
-    display: flex;
-    align-items: center;
-  }
+.frame {
+  width: 428px;
+  height: 926px;
+  background: rgba(255,254,254,1);
+  opacity: 1;
+  position: absolute;
+  top: 62%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+  position: absolute;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+/* Header */
+.msg-header {
+  position: absolute;
+  width: 429px;
+  height: 91px;
+  left: 0px;
+  top: 0px;
 
 
-  .v123_33 {
-    position: absolute;
-    width: 132px;
-    height: 91px;
-    left: 296px;
-    top: 0px;
+}
+
+.messaging {
+  position: absolute;
+  width: 428px;
+  height: 756px;
+  left: 0px;
+  top: 91px;
+}
+
+.head-divider {
+  position: absolute;
+  width: 95.99px;
+  height: 0px;
+  left: 295.77px;
+  top: 90.99px;
   
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 25px;
-  
-    border: none;
-  
+  border: 1px solid #000000;
+  transform: matrix(0, -1, 1, 0, 0, 0);
+}
 
-    color: #FFFFFF;
-    background-color: #B1D283;
+.name {
+  color: #fff;
+}
 
-    border: none;
+.v123_30 {
+  position: absolute;
+  width: 297px;
+  height: 91px;
+  left: 0px;
+  top: 0px;
 
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  }
-  .v123_33:hover{
-    background-color: #ccc;
-    color: white;
-  }
+  background: #B1D283;
+}
 
-  /* Messaging */
-  .messaging-bg {
-    position: absolute;
-    width: 428px;
-    height: 756px;
-    left: 0px;
-    top: 91px;
+.v123_31 {
+  position: absolute;
+  width: 132px;
+  height: 91px;
+  left: 296px;
+  top: 0px;
 
-    overflow: scroll;
-    background: #E3E2E0;
-  }
-
-  .msg-cards {
-    position: absolute;
-    width: 428px;
-    height: 107px;
-
-    background: #FFFFFF;
-    border: 0.5px solid #555555;
-    box-sizing: border-box;
-  }
-
-  .msg-image {
-    position: absolute;
-    width: 65px;
-    height: 65px;
-    left: 30px;
-    top: 50%;
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
-
-    background-color: #B1D283;
-
-    border-radius: 10px;
-  }
-
-  .msg-info-con {
-    position: absolute;
-    top: 36px;
-    left: 111px;
-    display: grid;
-    grid-template-columns: 150px 150px;
-    grid-template-rows: auto;
-
-  }
-
- .msg-name {
-  width: 200px;
-  height: 18px;
-  
+  background: #B1D283;
+}
+.v123_32 {
+  width: 297px;
+  height: 88.25px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 2px;
+  left: 1px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   font-family: Roboto;
-  font-style: normal;
-  font-size: 24px;
-  line-height: 28px;
+  font-weight: Regular;
+  font-size: 45px;
+  opacity: 1;
+  text-align: center;
+  justify-content: center;
   display: flex;
   align-items: center;
-  
-  color: #B1D283;
- }
+}
 
-  .msg-date {
+
+.v123_33 {
+  position: absolute;
+  width: 132px;
+  height: 91px;
+  left: 296px;
+  top: 0px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+
+  border: none;
+
+
+  color: #FFFFFF;
+  background-color: #B1D283;
+
+  border: none;
+
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.v123_33:hover{
+  background-color: #ccc;
+  color: white;
+}
+/* Messaging */
+.msg-frame {
+  position: absolute;
+  width: 428px;
+  height: 756px;
+  left: 0px;
+  top: 91px;
+
+  overflow-y: scroll;
+  padding-right: 17px; /* Increase/decrease this value for cross-browser compatibility */
+  box-sizing: content-box; /* So the width will be 100% + 17px */
+}
+
+/* Messaging */
+.messaging-bg {
+  position: absolute;
+  width: 428px;
+  height: 956px;
+  left: 0px;
+  top: 0px;
+
+
+  background: #E3E2E0;
+}
+
+.msg-cards {
+  position: absolute;
+  width: 428px;
+  height: 107px;
+
+  background: #FFFFFF;
+  border: 0.5px solid #555555;
+  box-sizing: border-box;
+}
+
+.msg-image {
+  position: absolute;
+  width: 65px;
+  height: 65px;
+  left: 30px;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+
+  background-color: #B1D283;
+
+  border-radius: 10px;
+}
+
+.msg-info-con {
+  position: absolute;
+  top: 36px;
+  left: 111px;
+  display: grid;
+  grid-template-columns: 150px 150px;
+  grid-template-rows: auto;
+
+}
+
+.msg-name {
+width: 200px;
+height: 18px;
+
+font-family: Roboto;
+font-style: normal;
+font-size: 24px;
+line-height: 28px;
+display: flex;
+align-items: center;
+
+color: #B1D283;
+}
+
+.msg-date {
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+text-align: right;
+
+color: #888888;
+}
+
+.msg {
+  width: 261px;
+  height: 17px;
+
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 16px;
-  text-align: right;
 
+  text-overflow: ellipsis;
+  white-space: nowrap;
+
+  /* identical to box height */
+  display: flex;
+  align-items: center;
+}
+
+.msg-status {
+  position: relative;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: #B1D283;
+  align-items: right
+}
+
+/*Card Position*/
+#helena {
+  left: 0px;
+  top: 0px;
+}
+
+#artem {
+  left: 0px;
+  top: 107px;
+}
+
+#steve {
+  left: 0px;
+  top: 214px;
+}
+#sebastian {
+  left: 0px;
+  top: 321px;
+}
+
+#troll {
+  left: 0px;
+  top: 1000px;
+}
+
+/*Card Names*/
+#steve-name {
+  font-weight: bold;
+}
+
+/*Message Status*/
+#helena-msg {
+  font-weight: normal;
   color: #888888;
-  }
+}
+#artem-msg {
+  font-weight: normal;
+  color: #888888;
+}
+#steve-msg {
+  font-weight: bold;
+  color: #888888;
+}
+#sebastian-msg {
+  font-weight: normal;
+  color: #888888;
+}
 
-  .msg {
-    width: 261px;
-    height: 17px;
 
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 16px;
-
-    text-overflow: ellipsis;
-    white-space: nowrap;
-
-    /* identical to box height */
-    display: flex;
-    align-items: center;
-  }
-
-  .msg-status {
-    position: relative;
-    width: 12px;
-    height: 12px;
-    border-radius: 50%;
-    background: #B1D283;
-    align-items: right
-  }
-
-  /*Card Position*/
-  #helena {
-    left: 0px;
-    top: 0px;
-  }
-
-  #artem {
-    left: 0px;
-    top: 107px;
-  }
-
-  #steve {
-    left: 0px;
-    top: 214px;
-  }
-  #sebastian {
-    left: 0px;
-    top: 321px;
-  }
-
-  /*Card Names*/
-  #steve-name {
-    font-weight: bold;
-  }
-
-  /*Message Status*/
-  #helena-msg {
-    font-weight: normal;
-    color: #888888;
-  }
-  #artem-msg {
-    font-weight: normal;
-    color: #888888;
-  }
-  #steve-msg {
-    font-weight: bold;
-    color: #888888;
-  }
-  #sebastian-msg {
-    font-weight: normal;
-    color: #888888;
-  }
-
- 
-  .acb {
-    position: absolute;
-    width: 80px;
-    height: 80px;
-    left: 331px;
-    top: 651px;
-
-    
-    font-weight: 300;
-    font-size: 72px;
-
-    border: none;
-    border-radius: 50%;
-    color: #ffffff;
-
-    background-color: #B1D283;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  }
-
-  
-  /*Footer*/
-.footer-button {
+.acb {
   position: absolute;
-  width: 107px;
-  height: 79px;
-  background: #B4D283;
+  width: 80px;
+  height: 80px;
+  left: 331px;
+  top: 742px;
+
   
-  font-family: Roboto;
-  font-style: normal;
-  font-size: 25px;
+  font-weight: 300;
+  font-size: 72px;
 
   border: none;
+  border-radius: 50%;
+  color: #ffffff;
 
-  color: #FFFFFF;
+  background-color: #B1D283;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+/*Footer*/
+.footer-button {
+position: absolute;
+width: 107px;
+height: 79px;
+background: #B4D283;
+
+font-family: Roboto;
+font-style: normal;
+font-size: 25px;
+
+border: none;
+
+color: #FFFFFF;
 }
 .footer-button:hover{
-  background-color: #ccc;
-  color: white;
+background-color: #ccc;
+color: white;
 }
 
 #nearby {
-  left: 0px;
-  top: 847px;
-  font-weight: normal;
+left: 0px;
+top: 847px;
+font-weight: normal;
 }
 
 #inbox {
-  left: 107px;
-  top: 847px;
-  font-weight: bold;
-  text-decoration: underline;
+left: 107px;
+top: 847px;
+font-weight: bold;
+text-decoration: underline;
 }
 
 #events {
-  left: 214px;
-  top: 847px;
-  font-weight: normal;
+left: 214px;
+top: 847px;
+font-weight: normal;
 }
 
 #liked {
-  left: 321px;
-  top: 847px;
-  font-weight: normal;
+left: 321px;
+top: 847px;
+font-weight: normal;
 }
 
 
