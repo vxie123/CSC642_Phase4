@@ -523,7 +523,7 @@ body {
 /* section line #1  */
 .v148_113_1 {
   width: 399px;
-  background: url("../images/v148_113.png");
+  background: url("../imageFolder/v148_113.png");
   opacity: 1;
   position: absolute;
   top: 695px;
@@ -534,7 +534,7 @@ body {
 /* section line #2  */
 .v148_113_2 {
   width: 399px;
-  background: url("../images/v148_113.png");
+  background: url("../imageFolder/v148_113.png");
   opacity: 1;
   position: absolute;
   top: 745px;
@@ -545,7 +545,7 @@ body {
 /* section line #3  */
 .v148_113_3 {
   width: 399px;
-  background: url("../images/v148_113.png");
+  background: url("../imageFolder/v148_113.png");
   opacity: 1;
   position: absolute;
   top: 800px;
@@ -594,7 +594,7 @@ body {
 .v149_120 {
   width: 26px;
   height: 33px;
-  background: url("../images/v149_120.png");
+  background: url("../imageFolder/v149_120.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -611,7 +611,7 @@ body {
 .v149_121 {
   width: 50px;
   height: 50px;
-  background: url("../images/v149_121.png");
+  background: url("../imageFolder/v149_121.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -624,7 +624,7 @@ body {
 .v149_122 {
   width: 40px;
   height: 40px;
-  background: url("../images/v149_122.png");
+  background: url("../imageFolder/v149_122.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;

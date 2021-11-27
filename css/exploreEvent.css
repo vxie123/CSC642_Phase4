@@ -585,7 +585,7 @@ body {
 .v130_48 {
   width: 210px;
   height: 175px;
-  background: url("../images/v130_48.png");
+  background: url("../imageFolder/v130_48.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -691,7 +691,7 @@ body {
 .v130_64 {
   width: 210px;
   height: 175px;
-  background: url("../images/v130_64.png");
+  background: url("../imageFolder/v130_64.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -710,7 +710,7 @@ body {
 .v132_77 {
   width: 141px;
   height: 115px;
-  background: url("../images/v132_77.png");
+  background: url("../imageFolder/v132_77.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
