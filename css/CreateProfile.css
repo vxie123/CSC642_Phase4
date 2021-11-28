@@ -40,11 +40,13 @@ body {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
+  background-color: rgba(177,210,131,1);
   opacity: 1;
   position: absolute;
   top: 847px;
   left: 0px;
   overflow: hidden;
+  border: none;
 }
 .v92_47 {
   width: 107px;
@@ -58,6 +60,10 @@ body {
   top: 0px;
   left: 321px;
   overflow: hidden;
+}
+.v92_47:hover {
+  background-color: #ccc;
+  color: white;
 }
 .v92_48 {
   width: 107px;
@@ -94,6 +100,10 @@ body {
   left: 215px;
   overflow: hidden;
 }
+.v92_50:hover {
+  background-color: #ccc;
+  color: white;
+}
 .v92_51 {
   width: 107px;
   height: 79px;
@@ -127,6 +137,10 @@ body {
   top: 0px;
   left: 107px;
   overflow: hidden;
+}
+.v92_53:hover {
+  background-color: #ccc;
+  color: white;
 }
 .v92_54 {
   width: 107px;
@@ -162,6 +176,10 @@ body {
   top: 0px;
   left: 0px;
   overflow: hidden;
+}
+.v92_56:hover {
+  background-color: #ccc;
+  color: white;
 }
 .v92_57 {
   width: 107px;
@@ -423,6 +441,7 @@ body {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
+  background-color: rgba(177,210,131,1);
   opacity: 1;
   position: absolute;
   top: 1px;
@@ -473,6 +492,15 @@ body {
   font-size: 25px;
   opacity: 1;
   text-align: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  border: none;
+}
+.v120_48:hover{
+  background-color: #ccc;
+  color: white;
 }
 .name {
   color: #fff;
