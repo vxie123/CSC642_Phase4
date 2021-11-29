@@ -39,6 +39,7 @@
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
+    background-color: rgba(177,210,131,1);
     opacity: 1;
     position: absolute;
     top: 847px;
@@ -58,16 +59,19 @@
     left: 321px;
     overflow: hidden;
   }
-
   .v116_225 {
     width: 107px;
     height: 79px;
-    background: rgba(177,210,131,1);
+    /* background: rgba(177,210,131,1); */
     opacity: 1;
     position: absolute;
     top: 0px;
     left: 0px;
     overflow: hidden;
+  }
+  .v116_225:hover {
+    background-color: #ccc;
+    color: white;
   }
   .v116_226 {
     width: 107px;
@@ -97,11 +101,15 @@
   .v116_228 {
     width: 107px;
     height: 79px;
-    background: rgba(177,210,131,1);
+    /* background: rgba(177,210,131,1); */
     opacity: 1;
     position: absolute;
     top: 0px;
     left: 0px;
+  }
+  .v116_228:hover {
+    background-color: #ccc;
+    color: white;
   }
   .v116_229 {
     width: 106px;
@@ -131,12 +139,16 @@
   .v116_231 {
     width: 107px;
     height: 79px;
-    background: rgba(177,210,131,1);
+    /* background: rgba(177,210,131,1); */
     opacity: 1;
     position: absolute;
     top: 0px;
     left: 0px;
     overflow: hidden;
+  }
+  .v116_231:hover {
+    background-color: #ccc;
+    color: white;
   }
   .v116_232 {
     width: 107px;
@@ -166,12 +178,16 @@
   .v116_234 {
     width: 107px;
     height: 79px;
-    background: rgba(180,210,131,1);
+    /* background: rgba(180,210,131,1); */
     opacity: 1;
     position: absolute;
     top: 0px;
     left: 0px;
     overflow: hidden;
+  }
+  .v116_234:hover {
+    background-color: #ccc;
+    color: white;
   }
   .v116_235 {
     width: 107px;
@@ -444,6 +460,10 @@
     top: 0px;
     left: 295px;
     overflow: hidden;
+  }
+  .v120_62:hover {
+    background-color: #ccc;
+    color: white;
   }
   .v120_63 {
     width: 295px;
