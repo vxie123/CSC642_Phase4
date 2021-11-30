@@ -110,48 +110,168 @@
   }
 
   /*Messaging Body*/
+  .msg-body {
+    position: absolute;
+    width: 428px;
+    height: 861px;
+    left: 0px;
+    top: 0px;
+
+    overflow-y: scroll;
+    padding-right: 17px; /* Increase/decrease this value for cross-browser compatibility */
+    padding-bottom: 17px;
+    box-sizing: content-box; /* So the width will be 100% + 17px */
+  }
 
   .messaging-bg {
     position: absolute;
     width: 428px;
-    height: 861px;
-    left: 1px;
+    height: 961px;
+    left: 0px;
     top: 0px;
-
-    background: #E3E2E0;
   
   
     background: #E3E2E0;
   }
 
-  .own-msg-bubble {
+  .time-stamp {
     position: absolute;
-    width: 252px;
-    height: 96.3px;
-    left: 151px;
-    top: 725.57px;
-
-    background: #B1D283;
-    border-radius: 15px;
-  }
-  
-  .own-message { 
-    position: absolute;
-    left: 3.17%;
-    right: 1.98%;
-    top: 7.92%;
-    bottom: 6.18%;
+    width: 158px;
+    height: 25.74px;
+    left: 136px;
+    top: 376.59px;
 
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
-    font-size: 16px;
+    font-size: 15px;
+    line-height: 17px;
+    text-align: center;
+
+    color: #696969;
+  }
+
+  .own-msg-bubble {
+    position: absolute;
+    
+
+    background: #B1D283;
+    border-radius: 15px;
+  }
+
+  #omsg-1 {
+    width: 252px;
+    height: 96.3px;
+    right: 14px;
+    top: 725.57px;
+  }
+
+  #omsg-2 {
+    width: 220px;
+    height: 73.42px;
+    right: 14px;
+    top: 276.47px;
+  }
+  
+  .own-message { 
+    position: absolute;
+    left: 4%;
+    right: 4%;
+    top: 8%;
+    bottom: 4%;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
     line-height: 21px;
     text-align: justify;
 
     color: #FFFFFF;
   }
+  .their-msg-bubble {
+    position: absolute;
+    
 
+    background: #CCCCCC;
+    border-radius: 15px;
+  }
+
+  #tmsg-1 {
+    width: 241px;
+    height: 32.42px;
+    left: 14px;
+    top: 225.94px;
+
+  }
+
+  
+
+  .their-message {
+    position: absolute;
+    left: 4%;
+    right: 4%;
+    top: 8%;
+    bottom: 4%;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: justify;
+
+    color: #444444;
+  }
+
+  .seen-blk {
+    position: absolute;
+    width: 124px;
+    height: 19.07px;
+    right: 18px;
+    top: 830.45px;
+
+
+  }
+
+  .seen-status {
+    position: absolute;
+    left: 0%;
+    right: 20.16%;
+    top: 5%;
+    bottom: 5%;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 17px;
+
+    /* identical to box height */
+    text-align: right;
+    color: #696969;
+  }
+
+  img {
+    position: absolute;
+    left: 83.87%;
+    right: 0%;
+    top: 0%;
+
+    border-radius: 15px
+
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  .seen-pfp {
+    
+    bottom: 0%;
+    height: 20px;
+    width: 20px;
+
+    
+  }
 
   /*Message Bar*/
 
