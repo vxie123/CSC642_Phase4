@@ -59,7 +59,7 @@ body {
   color: #fff;
 }
 
-.v123_30 {
+.logo-rec {
   position: absolute;
   width: 297px;
   height: 91px;
@@ -69,7 +69,7 @@ body {
   background: #B1D283;
 }
 
-.v123_31 {
+.profile-rec {
   position: absolute;
   width: 132px;
   height: 91px;
@@ -78,7 +78,7 @@ body {
 
   background: #B1D283;
 }
-.v123_32 {
+.logo-text {
   width: 297px;
   height: 88.25px;
   color: rgba(255,255,255,1);
@@ -97,7 +97,7 @@ body {
 }
 
 
-.v123_33 {
+.profile-button {
   position: absolute;
   width: 132px;
   height: 91px;
@@ -110,7 +110,7 @@ body {
   font-size: 25px;
 
   border: none;
-
+  cursor: pointer;
 
   color: #FFFFFF;
   background-color: #B1D283;
@@ -119,7 +119,7 @@ body {
 
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-.v123_33:hover{
+.profile-button:hover{
   background-color: #ccc;
   color: white;
 }
@@ -148,10 +148,12 @@ body {
   background: #E3E2E0;
 }
 
-.msg-cards {
+.to-profile2 {
   position: absolute;
   width: 428px;
   height: 107px;
+
+  cursor: pointer;
 
   background: #FFFFFF;
   border: 0.5px solid #555555;
@@ -166,8 +168,6 @@ body {
   top: 50%;
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
-
-  background-color: #B1D283;
 
   border-radius: 10px;
 }
@@ -254,10 +254,22 @@ color: #888888;
   top: 321px;
 }
 
-#troll {
-  left: 0px;
-  top: 1000px;
+/*Profile Pictures*/
+#helena-img {
+  background: url(../imageFolder/helena.jpg);
 }
+
+#artem-img {
+  background: url(../imageFolder/artem.png);
+}
+
+#steve-img {
+  background: url(../imageFolder/steve.png);
+}
+#sebastian-img {
+  background: url(../imageFolder/sebastian.png);
+}
+
 
 /*Card Names*/
 #steve-name {
@@ -290,7 +302,8 @@ color: #888888;
   left: 331px;
   top: 742px;
 
-  
+  cursor: pointer;
+
   font-weight: 300;
   font-size: 72px;
 
@@ -302,6 +315,11 @@ color: #888888;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
+.acb:hover {
+  background-color: #ccc;
+  color: white;
+}
+
 
 /*Footer*/
 .footer-button {
@@ -309,6 +327,8 @@ position: absolute;
 width: 107px;
 height: 79px;
 background: #B4D283;
+
+cursor: pointer;
 
 font-family: Roboto;
 font-style: normal;
