@@ -572,6 +572,7 @@ body {
   opacity: 1;
   background: rgba(177,210,131,0.800000011920929);
   border: none;
+  color: white;
 } 
 .v92_8 input[type="file"]{ 
   -webkit-appearance:none; 
