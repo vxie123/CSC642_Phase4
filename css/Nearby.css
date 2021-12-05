@@ -340,12 +340,12 @@
     overflow: hidden;
   }
   .v45_196 {
-    width: 132px;
+    width: 135px;
     height: 89px;
     background: rgba(177,210,131,1);
     opacity: 1;
     position: absolute;
-    top: 1px;
+    top: 0px;
     left: 295px;
     overflow: hidden;
   }
@@ -355,8 +355,8 @@
     background: rgba(177,210,131,1);
     opacity: 1;
     position: absolute;
-    top: 1px;
-    left: 1px;
+    top: 0px;
+    left: 0px;
   }
   .v38_131 {
     width: 294px;
