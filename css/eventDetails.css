@@ -733,7 +733,7 @@ body {
   left: 107px;
   top: 847px;
   font-weight: bold;
-  text-decoration: underline;
+  /* text-decoration: underline; */
   }
   
   #events {
