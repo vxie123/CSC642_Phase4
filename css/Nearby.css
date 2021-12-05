@@ -36,11 +36,10 @@
   }
   .v38_118 {
     width: 399px;
-    height: 782px;
-    background: rgba(255,255,255,1);
+    height: 752px;
     opacity: 1;
     position: absolute;
-    top: 65px;
+    top: 95px;
     left: 15px;
     overflow: hidden;
   }
@@ -328,7 +327,7 @@
   }
   .v38_129 {
     width: 428px;
-    height: 66px;
+    height: 89px;
     background: url("../images/v38_129.png");
     background-repeat: no-repeat;
     background-position: center center;
@@ -342,7 +341,7 @@
   }
   .v45_196 {
     width: 132px;
-    height: 65px;
+    height: 89px;
     background: rgba(177,210,131,1);
     opacity: 1;
     position: absolute;
@@ -352,7 +351,7 @@
   }
   .v45_195 {
     width: 295px;
-    height: 65px;
+    height: 89px;
     background: rgba(177,210,131,1);
     opacity: 1;
     position: absolute;
@@ -363,7 +362,7 @@
     width: 294px;
     color: rgba(255,255,255,1);
     position: absolute;
-    top: 1px;
+    top: 21px;
     left: 0px;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     font-family: Roboto;
@@ -376,7 +375,7 @@
     width: 128px;
     color: rgba(255,255,255,1);
     position: absolute;
-    top: 1px;
+    top: 30px;
     left: 295px;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     font-family: Roboto;
@@ -384,6 +383,11 @@
     font-size: 25px;
     opacity: 1;
     text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    border: none;
   }
   .name {
     color: #fff;
@@ -394,15 +398,17 @@
   .v45_217 {
     width: 428px;
     height: 79px;
-    background: url("../images/v45_217.png");
+    background: url("../images/v92_46.png");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
+    background-color: rgba(177,210,131,1);
     opacity: 1;
     position: absolute;
     top: 847px;
     left: 0px;
     overflow: hidden;
+    border: none;
   }
   .v45_233 {
     width: 107px;
@@ -413,7 +419,7 @@
     background-size: cover;
     opacity: 1;
     position: absolute;
-    top: 0px;
+    top: 25px;
     left: 321px;
     overflow: hidden;
   }
@@ -448,7 +454,7 @@
     background-size: cover;
     opacity: 1;
     position: absolute;
-    top: 0px;
+    top: 25px;
     left: 215px;
     overflow: hidden;
   }
@@ -482,7 +488,7 @@
     background-size: cover;
     opacity: 1;
     position: absolute;
-    top: 0px;
+    top: 25px;
     left: 107px;
     overflow: hidden;
   }
@@ -517,7 +523,7 @@
     background-size: cover;
     opacity: 1;
     position: absolute;
-    top: 0px;
+    top: 25px;
     left: 0px;
     overflow: hidden;
   }
@@ -539,6 +545,7 @@
     left: 0px;
     font-family: Roboto;
     font-weight: Bold;
+    text-decoration: underline;
     font-size: 25px;
     opacity: 1;
     text-align: center;
@@ -550,7 +557,7 @@
 
   .card-container{
     padding-top: 5px;
-    height: 783px;
+    height: 753px;
     display: flex;
     flex-direction: column;
     opacity: 1;
@@ -559,6 +566,11 @@
 
   .card-container::-webkit-scrollbar {    display: none;}
   
+  .cards{
+    background-color: white;
+    border-radius: 10px;
+  }
+
   .dog-card {
     width: 399px;
     height: 384px;

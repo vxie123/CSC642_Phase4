@@ -1,223 +1,374 @@
 * {
-    box-sizing: border-box;
-  }
-  body {
-    font-size: 14px;
-    background-color: black;
-  }
+  box-sizing: border-box;
+}
+body {
+  font-size: 14px;
+  background-color: black;
+}
 
-  .frame {
-    width: 428px;
-    height: 926px;
-    background: rgba(255,254,254,1);
-    opacity: 1;
-    position: absolute;
-    top: 62%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    overflow: hidden;
-    position: absolute;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-  }
+.frame {
+  width: 428px;
+  height: 926px;
+  background: rgba(255,254,254,1);
+  opacity: 1;
+  position: absolute;
+  top: 62%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+  position: absolute;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
 
-  /*Header*/
+/*Header*/
 
-  .head-rec {
-    position: absolute;
-    width: 428px;
-    height: 132px;
-    left: 0px;
-    top: 0px;
-    
-    background: #B1D283;
-    opacity: 0.85;
-  }
-
-  .head-pfp {
-    position: absolute;
-    width: 65px;
-    height: 65px;
-    left: 181px;
-    top: 15px;
-
-    background: url(../imageFolder/helena.jpg);
-    border-radius: 10.62px;
-  }
-
-  .head-name {
-    position: absolute;
-    width: 281px;
-    height: 37px;
-    left: 74px;
-    top: 80px;
-
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 36px;
-    line-height: 42px;
-    text-align: center;
-
-    color: #FFFFFF;
-  }
-
-  .back-arrow {
-    position: absolute;
-    width: 50px;
-    height: 50px;
-    left: 0px;
-    top: 46px;
-    
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 36px;
-    line-height: 42px;
-    text-align: center;
-
-    cursor: pointer;
-
-    border: none;
-    background-color: rgba(177, 210, 131, 0.25);
-    opacity: 0.85;
-    color: #FFFFFF;
-  }
-
-  .dot-menu {
-    position: absolute;
-    width: 61px;
-    height: 61px;
-    left: 360px;
-    top: 30px;
-
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 45px;
-    line-height: 42px;
-    text-align: center;
-
-    cursor: pointer;
-
-    border: none;
-    background-color: rgba(177, 210, 131, 0.25);
-    opacity: 0.85;
-    color: #FFFFFF;
-  }
-
-  /*Messaging Body*/
-
-  .messaging-bg {
-    position: absolute;
-    width: 428px;
-    height: 861px;
-    left: 1px;
-    top: 0px;
-
-    background: #E3E2E0;
+.head-rec {
+  position: absolute;
+  width: 428px;
+  height: 132px;
+  left: 0px;
+  top: 0px;
   
+  background: #B1D283;
+  opacity: 0.85;
+}
+
+.head-pfp {
+  position: absolute;
+  width: 65px;
+  height: 65px;
+  left: 181px;
+  top: 15px;
+
+  background: url(../imageFolder/helena.jpg);
+  border-radius: 10.62px;
+}
+
+.head-name {
+  position: absolute;
+  width: 281px;
+  height: 37px;
+  left: 74px;
+  top: 80px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+
+  color: #FFFFFF;
+}
+
+.back-arrow {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  left: 0px;
+  top: 46px;
   
-    background: #E3E2E0;
-  }
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
 
-  .own-msg-bubble {
-    position: absolute;
-    width: 252px;
-    height: 96.3px;
-    left: 151px;
-    top: 725.57px;
+  cursor: pointer;
 
-    background: #B1D283;
-    border-radius: 15px;
-  }
+  border: none;
+  background-color: rgba(177, 210, 131, 0.25);
+  opacity: 0.85;
+  color: #FFFFFF;
+}
+
+.dot-menu {
+  position: absolute;
+  width: 61px;
+  height: 61px;
+  left: 360px;
+  top: 30px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 42px;
+  text-align: center;
+
+  cursor: pointer;
+
+  border: none;
+  background-color: rgba(177, 210, 131, 0.25);
+  opacity: 0.85;
+  color: #FFFFFF;
+}
+
+/*Messaging Body*/
+.msg-body {
+  position: absolute;
+  width: 428px;
+  height: 861px;
+  left: 0px;
+  top: 0px;
+
+  overflow-y: scroll;
+  padding-right: 17px; /* Increase/decrease this value for cross-browser compatibility */
+  padding-bottom: 17px;
+  box-sizing: content-box; /* So the width will be 100% + 17px */
+}
+
+.messaging-bg {
+  position: absolute;
+  width: 428px;
+  height: 861px;
+  left: 0px;
+  top: 0px;
+
+
+  background: #E3E2E0;
+}
+
+.time-stamp {
+  position: absolute;
+  width: 158px;
+  height: 25.74px;
+  left: 136px;
+  top: 376.59px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 17px;
+  text-align: center;
+
+  color: #696969;
+}
+
+.own-msg-bubble {
+  position: absolute;
   
-  .own-message { 
-    position: absolute;
-    left: 3.17%;
-    right: 1.98%;
-    top: 7.92%;
-    bottom: 6.18%;
 
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 21px;
-    text-align: justify;
+  background: #B1D283;
+  border-radius: 15px;
+}
 
-    color: #FFFFFF;
-  }
+#omsg-1 {
+  width: 252px;
+  height: 96.3px;
+  right: 14px;
+  top: 725.57px;
+}
+
+#omsg-2 {
+  width: 220px;
+  height: 73.42px;
+  right: 14px;
+  top: 281px;
+}
+
+.oimg-1 {
+  position: absolute;
+  
+  height: 314.65px;
+  right: 14px;
+  top: 405.33px;
+
+  border-radius: 15px;
+}
+
+.own-message { 
+  position: absolute;
+  left: 4%;
+  right: 4%;
+  top: 8%;
+  bottom: 4%;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: justify;
+
+  color: #FFFFFF;
+}
+.their-msg-bubble {
+  position: absolute;
+  
+
+  background: #CCCCCC;
+  border-radius: 15px;
+}
+
+#tmsg-1 {
+  position: absolute;
+  
+
+  background: #CCCCCC;
+  border-radius: 15px;
+
+  width: 241px;
+  height: 32.42px;
+  left: 14px;
+  top: 242px;
+}
+
+#timg-1 {
+  position: absolute;
+  height: 232.57px;
+  left: 16px;
+  top: 5px;
+
+  border-radius: 7.37654px;
+
+}
 
 
-  /*Message Bar*/
 
-  .bar-bg {
-    position: absolute;
-    width: 428px;
-    height: 64px;
-    left: 0px;
-    top: 861px;
-    
-    background: #FFFFFF;
-  }
+.their-message {
+  position: absolute;
+  left: 4%;
+  right: 4%;
+  top: 20%;
+  bottom: 4%;
 
-  .textbox {
-    position: absolute;
-    width: 280px;
-    height: 41px;
-    left: 65px;
-    top: 874px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: justify;
 
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 21px;
+  color: #444444;
+}
 
-    padding-left: 16px;
+.seen-blk {
+  position: absolute;
+  width: 124px;
+  height: 19.07px;
+  right: 18px;
+  top: 830.45px;
 
-    background: #FFFFFF;
-    border: 1px solid #9C9C9C;
-    box-sizing: border-box;
-    border-radius: 15px;
-  }
 
-  .upload-button {
-    position: absolute;
-    width: 39px;
-    height: 41px;
-    left: 15px;
-    top: 875px;
+}
 
-    text-align: center;
-    font-family: Roboto;
+.seen-status {
+  position: absolute;
+  left: 0%;
+  right: 20.16%;
+  top: 5%;
+  bottom: 5%;
 
-    color: #ffffff;
-    background-color: #B1D283;
-    border: 1px solid #CCCCCC;
-    box-sizing: border-box;
-    border-radius: 10px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 17px;
 
-  }
+  /* identical to box height */
+  text-align: right;
+  color: #696969;
+}
 
-  .send-button {
-    position: absolute;
-    width: 61px;
-    height: 41px;
-    left: 354px;
-    top: 875px;
+img {
+  max-width: 100%;
+  max-height: 100%;
 
-    text-align: center;
-    font-family: Roboto;
-    cursor: pointer;
+  border-radius: 5%;
+}
 
-    color: #ffffff;
-    background-color: #B1D283;
-    border: 1px solid #CCCCCC;
-    box-sizing: border-box;
-    border-radius: 10px;
+.seen-pfp {
+  position: absolute;
+  left: 83.87%;
+  right: 0%;
+  top: 0%;
+}
 
-  }
+/*Message Bar*/
+
+.bar-bg {
+  position: absolute;
+  width: 428px;
+  height: 64px;
+  left: 0px;
+  top: 861px;
+  
+  background: #FFFFFF;
+}
+
+.textbox {
+  position: absolute;
+  width: 280px;
+  height: 41px;
+  left: 65px;
+  top: 874px;
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+
+  padding-left: 16px;
+
+  background: #FFFFFF;
+  border: 1px solid #9C9C9C;
+  box-sizing: border-box;
+  border-radius: 15px;
+}
+
+.upload-button {
+  position: absolute;
+  width: 39px;
+  height: 41px;
+  left: 15px;
+  top: 875px;
+
+  text-align: center;
+  font-family: Roboto;
+  content: 'IMG';
+
+  color: #ffffff;
+  background-color: #B1D283;
+  border: 1px solid #CCCCCC;
+  box-sizing: border-box;
+  border-radius: 10px;
+
+}
+.upload-button:hover{
+  background-color: #ccc;
+  color: white;
+}
+.upload-button::-webkit-file-upload-button {
+  visibility: hidden;
+}
+
+.send-button {
+  position: absolute;
+  width: 61px;
+  height: 41px;
+  left: 354px;
+  top: 875px;
+
+  text-align: center;
+  font-family: Roboto;
+  cursor: pointer;
+
+  color: #ffffff;
+  background-color: #B1D283;
+  border: 1px solid #CCCCCC;
+  box-sizing: border-box;
+  border-radius: 10px;
+
+}
+
+.send-button:hover {
+  background-color: #ccc;
+  color: white;
+}
