@@ -17,9 +17,9 @@ body {
   height: 926px;
   background: rgba(255,254,254,1);
   opacity: 1;
-  position: absolute;
-  top: 42%;
-  left: 50%;
+  top: 480px;
+  margin-left: 50%;
+  margin-right: 50%;
   transform: translate(-50%, -50%);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   overflow: hidden;
@@ -585,6 +585,7 @@ body {
   height: 91px;
   left: 0px;
   top: 0px;
+  text-align: center;
 }
 
 .v123_30 {
@@ -680,14 +681,13 @@ body {
   #inbox {
   left: 107px;
   top: 847px;
-  font-weight: bold;
-  /* text-decoration: underline; */
   }
   
   #events {
   left: 214px;
   top: 847px;
   font-weight: normal;
+  text-decoration: underline;
   }
   
   #liked {
