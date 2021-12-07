@@ -328,23 +328,21 @@ img {
   width: 39px;
   height: 41px;
   left: 15px;
-  top: 875px;
+  top: 872px;
 
   text-align: center;
   font-family: Roboto;
   content: 'IMG';
 
-  color: #ffffff;
-  background-color: #B1D283;
-  border: 1px solid #CCCCCC;
-  box-sizing: border-box;
+  background: url(../imageFolder/camera-fill.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
   border-radius: 10px;
 
+  cursor: pointer;
 }
-.upload-button:hover{
-  background-color: #ccc;
-  color: white;
-}
+
 .upload-button::-webkit-file-upload-button {
   visibility: hidden;
 }
