@@ -385,3 +385,59 @@ font-weight: normal;
 
 
 
+.dog-card {
+  width: 439px;
+  height: 844px;
+  background: url("../images/v45_282.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.228)
+}
+.card-image {
+  display: block;
+  padding-top: 8px;
+  margin: auto;
+  width: 564px;
+  height: 853px;
+
+  opacity: 1;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.card-text{
+  color: rgba(0,0,0,1);
+  font-family: Roboto;
+  font-weight: Regular;
+  font-size: 25px;
+  opacity: 1;
+  text-align: left;
+  padding-top: 10px;
+  padding-left: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 6px;
+}
+  
+.dog-name{
+  grid-row: 1;
+  grid-column: 1/ 2;
+  font-size: 36px !important;
+}
+
+.dog-distance{
+  grid-column: 3;
+  grid-row: 1;
+}
+.dog-breed{
+  grid-column: 1/-1;
+  grid-row: 2;
+}
+.dog-personality{
+  grid-column: 1/-1;
+  grid-row: 3;
+}
